@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background: #f2f2f2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .card {
+            background: white;
+            width: 300px;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.15);
+            text-align: center;
+        }
+
+        h2 {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="card">
+        <h2>New York Weather</h2>
+        <p id="temp">Loading...</p>
+        <p id="wind"></p>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
